@@ -1,3 +1,7 @@
+import BankAccount.COD;
+import BankAccount.CheckingAccount;
+import BankAccount.SavingsAccount;
+
 import java.util.GregorianCalendar;
 
 public class AccountManager {
@@ -12,7 +16,7 @@ public class AccountManager {
 
         System.out.println("Checking account balance is:" + myCheck.getBalance());
         System.out.println("Savings account balance is:" + mySave.getBalance());
-        System.out.println("COD account balance is:" + myCOD.getBalance());
+        System.out.println("BankAccount.COD account balance is:" + myCOD.getBalance());
 
     }
 }

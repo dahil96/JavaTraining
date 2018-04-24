@@ -1,3 +1,5 @@
+package BankAccount;
+
 import java.util.Random;
 
 public class BankAccount {
@@ -10,15 +12,15 @@ public class BankAccount {
         return name + numberGenerator.nextInt(100);
     }
 
-    protected void deposit (double amount) {
+    public void deposit (double amount) {
         balance = balance + amount;
     }
 
-    protected double getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    protected String getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 }
