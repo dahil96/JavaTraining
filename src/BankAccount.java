@@ -4,7 +4,7 @@ public class BankAccount {
     protected String accountNumber;
     protected double balance;
 
-    Random numberGenerator;
+    Random numberGenerator = new Random();
 
     protected String newAccountNumber (String name) {
         return name + numberGenerator.nextInt(100);
